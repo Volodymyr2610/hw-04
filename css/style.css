@@ -343,6 +343,22 @@ height: 64;
   margin-top: 8px;
 }
 
+/*Customers*/
+
+.customers-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--text-header);
+  margin-bottom: 72px;
+}
+
+.section-customers {
+  padding: 120px 0;
+}
 /*FOOTER*/
 
 footer {
