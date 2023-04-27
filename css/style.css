@@ -65,6 +65,7 @@ body {
   padding: 24px 0;
   background-color: var(--white-text);
   border-bottom: 1px solid #e7e9fc;
+  
 }
 
 .header-container {
@@ -152,12 +153,22 @@ body {
 /* Hero section */
 
 .hero {
-  background: var(--color-hero);
+  background:  rgba(46, 47, 66, 0.7);;
   padding: 188px 0;
+  max-width: 1440px;
+  /* height: 600px; */
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #000000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image:url(../images/background/Dark-bg.png), url(../images/background/people-office-1.png)
+  ;
 }
 
 .hero-header {
-  font-family: "Roboto", sans-serif;
+  font-family:"Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -218,6 +229,21 @@ a {
   flex-wrap: nowrap;
   flex-direction: row;
   gap: 24px;
+}
+
+.icon-pos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background: #F4F4FD;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.svg {
+width: 64;
+height: 64;
 }
 
 .advantages-list:not(:first-child) {
