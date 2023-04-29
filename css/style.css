@@ -484,8 +484,9 @@ footer {
   gap: 16px;
 }
 
-.social-fut {
-  
+.social-fut :hover,
+.social-fut :focus {
+  background-color: #31d0aa;
 }
 
 
