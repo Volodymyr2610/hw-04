@@ -411,9 +411,10 @@ a {
 }
 
 .customers-item {
-  padding: 16px 32px;
+  /* padding: 16px 32px; */
   height: 88px;
   width: calc((100% - 120px) / 6);
+ 
 }
 
 .custom-icon:focus {
@@ -429,12 +430,14 @@ a {
 .icon-customers {
   fill: currentColor;
 }
+
+
 /*FOOTER*/
 
 footer {
-  /* background: #2e2f42; */
   background: var(--color-hero);
 }
+
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
@@ -468,11 +471,12 @@ footer {
 }
 .logo-container {
   display: inline-block;
+  margin-right: 120px;
 }
 .footer-container {
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
+  
 }
 .soc-media {
   font-weight: 500;
